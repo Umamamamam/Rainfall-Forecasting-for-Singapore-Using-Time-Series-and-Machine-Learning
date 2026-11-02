@@ -9,7 +9,8 @@ Forecasts the next 12 months of rainfall using ARIMA (SARIMAX), SimpleRNN and LS
 ## Project structure
 ```
 rainfall-forecast/
-|-- rainfall_forecast.ipynb
+|-- notebook 
+|   |-- rainfall_forecast.ipynb
 |-- README.md
 |-- data/
 |   |-- rainfall-monthly-total.csv
@@ -41,7 +42,7 @@ All files are joined using the `month` column.
 
 ## Setup
 ```bash
-pip install numpy pandas matplotlib seaborn scikit-learn statsmodels tensorflow jupyter
+pip install numpy pandas matplotlib seaborn scikit-learn statsmodels tensorflow jupytergit
 ```
 
 ## How to run
